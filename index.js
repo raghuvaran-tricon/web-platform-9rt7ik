@@ -125,11 +125,11 @@ function createBunny(x, y) {
             lineJoin: 'round',
           });
 
-          const richText = new PIXI.Text(counter, style);
-          richText.x = 600;
-          richText.y = 420;
+          // const richText = new PIXI.Text(counter, style);
+          // richText.x = 600;
+          // richText.y = 420;
 
-          app.stage.addChild(richText);
+          // app.stage.addChild(richText);
         }
       } else if (newPosition.x < this.x || newPosition.y < this.y) {
         this.x = newPosition.x;
